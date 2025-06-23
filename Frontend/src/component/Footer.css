@@ -1,0 +1,12 @@
+.Footer {
+  display: flex;
+  color: #61bdfb;
+  padding: 20px 20%;
+  justify-content: space-between;
+}
+.Footer-item {
+  list-style: none;
+}
+.Footer-item li {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: fit-content;
+  border: none;
+}
+textarea {
+  resize: none;
+  outline: none;
+}
+input {
+  outline: none;
+}
+h2 {
+  color: #dfe8ef;
+}

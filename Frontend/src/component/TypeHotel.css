@@ -1,0 +1,20 @@
+.Type-Hotel {
+  padding: 0 20%;
+}
+.Type-Hotel h1 {
+  margin-bottom: 30px;
+}
+.Type-Hotel ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.Type-Hotel-item {
+}
+.Type-Hotel-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}

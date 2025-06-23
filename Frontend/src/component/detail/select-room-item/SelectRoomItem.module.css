@@ -1,0 +1,19 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select {
+  display: flex;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.select > * {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}

@@ -1,0 +1,60 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 20%;
+}
+.page h3 {
+  margin-bottom: 20px;
+}
+.title,
+.item {
+  display: grid;
+  grid-template-columns: 5% 3fr 1fr 3fr 1fr 2fr 1fr;
+}
+
+.title {
+  background-color: #32a4c1;
+  color: white;
+}
+.item {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #dddddd;
+}
+.title th {
+  text-align: start;
+}
+.title > *,
+.item > * {
+  height: fit-content;
+  padding: 10px;
+}
+.item span {
+  height: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+.booked {
+  background-color: #f69685;
+}
+.checkin {
+  background-color: #39d139;
+}
+.checkout {
+  background-color: #dedbfd;
+}
+.page th,
+.page td {
+  border-right: 1px solid #dddddd;
+  /* border: 0 1px; */
+}
+
+.page th:last-child {
+  border: none;
+}
+
+.title td,
+.item td {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

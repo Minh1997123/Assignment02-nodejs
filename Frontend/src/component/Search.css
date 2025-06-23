@@ -1,0 +1,9 @@
+.Search {
+  display: flex;
+  justify-content: space-between;
+  margin: 5vh 10%;
+}
+.SearchItem-container {
+  height: 90vh;
+  margin-left: 20px;
+}

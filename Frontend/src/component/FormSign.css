@@ -1,0 +1,27 @@
+.FormsSign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #003580;
+  padding: 3% 0;
+}
+.FormsSign h1 {
+  font-size: 2rem;
+}
+.FormsSign > * {
+  margin-top: 20px;
+}
+.FormsSign_form {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.FormsSign_form * {
+  height: 3rem;
+}
+.FormsSign input {
+  width: 80%;
+  border-radius: 5px;
+  padding-left: 10px;
+}

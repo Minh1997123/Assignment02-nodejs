@@ -1,0 +1,44 @@
+.SearchPopup {
+  background-color: #febb02;
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+  height: 60%;
+}
+.SearchPopup button {
+  width: 100%;
+}
+.SearchPopup * {
+  margin-top: 10px;
+}
+.SearchPopup *:first-child {
+  margin-top: 0px;
+}
+.SearchPopup_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.SearchPopup_item input {
+  height: 2rem;
+}
+
+.SearchPopup_option {
+}
+.SearchPopup_option-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.SearchPopup_option-item input {
+  width: 20%;
+  border: 1px solid;
+}
+
+.SearchPopup_item .date button {
+  width: calc(100% / 7);
+}
+.date .rdrMonth {
+  width: 100%;
+}

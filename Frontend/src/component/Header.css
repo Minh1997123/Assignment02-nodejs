@@ -1,0 +1,57 @@
+.header {
+  padding: 10px 20%;
+  background-color: #003580;
+  color: white;
+}
+.header > * {
+  margin-bottom: 20px;
+}
+
+.header-form {
+  display: flex;
+  border: 2px solid #febb02;
+  border-radius: 5px;
+  padding: 10px 30px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  bottom: -60px;
+}
+.header-form i {
+  color: #d3d3d3;
+  margin-right: 10px;
+}
+.header-form a,
+.header a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+.header-form > div {
+  flex-grow: 1;
+  margin-right: 10px;
+  display: flex;
+}
+.form-input {
+  width: auto;
+  flex-grow: 1;
+}
+.popup_input {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+}
+.popup-room {
+  background-color: #eff2f7;
+}
+.popup-room label {
+  color: black;
+}
+.popup-room > div {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+.hiden {
+  display: none;
+}

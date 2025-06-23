@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #e7f8f8;
+}
+
+button {
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  height: 2rem;
+  cursor: pointer;
+}
+input {
+  border: none;
+  outline: none;
+}

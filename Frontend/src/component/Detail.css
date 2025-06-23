@@ -1,0 +1,116 @@
+.Detail {
+  padding: 20px 15%;
+  background-color: white;
+}
+.Detail-header {
+  display: flex;
+  justify-content: space-between;
+}
+.Detail-header button {
+  border-radius: 5px;
+  height: 2rem;
+}
+.Detail-header-info {
+}
+.Detail-header-info p:first-of-type {
+  font-size: 12px;
+}
+.Detail-header-info p:last-child {
+  color: green;
+}
+.Detail-header-info-distance {
+  color: #72dafc;
+}
+
+.Detail-image {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.Detail-image img {
+  width: 100%;
+  height: auto;
+  /* aspect-ratio: 1 / 1; */
+}
+
+.Detail-Footer {
+  display: flex;
+  margin-top: 40px;
+}
+.Detail-Footer-description {
+  width: 100%;
+}
+.Detail-Footer-description h2 {
+  margin-bottom: 20px;
+}
+
+.Detail-Footer-rate {
+  height: 100%;
+  padding: 15px;
+  background-color: #ebf3ff;
+  width: 30%;
+}
+.Detail-Footer-rate-price {
+  display: flex;
+  align-items: center;
+}
+.Detail-Footer-rate-price h2:last-child {
+  font-weight: 300;
+  margin-left: 5px;
+}
+.Detail-Footer-rate * {
+  margin-bottom: 10px;
+}
+.Detail-Footer-rate button {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form-booking {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.form-booking-date h2 {
+  margin-bottom: 20px;
+}
+
+.form-booking__select {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column: 1/3;
+  column-gap: 10%;
+  margin-bottom: 20px;
+}
+.form-booking__select h1,
+.form-booking__pay h1 {
+  grid-column: 1/3;
+  margin-bottom: 20px;
+}
+
+.form-booking__pay {
+  display: flex;
+  grid-column: 1/3;
+  flex-wrap: wrap;
+}
+.form-booking__pay h1 {
+  width: 100%;
+}
+.form-booking__pay select {
+  width: 20%;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10%;
+  height: 3rem;
+  background-color: #efefef;
+}
+.form-booking__pay button {
+  width: fit-content;
+  padding: 0 30px;
+  border-radius: 5px;
+  height: auto;
+}

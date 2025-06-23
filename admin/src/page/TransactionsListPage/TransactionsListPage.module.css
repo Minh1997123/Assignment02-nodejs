@@ -1,0 +1,15 @@
+.page {
+  padding: 0 40px;
+}
+
+.list {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.list .title {
+  display: grid;
+  grid-template-columns: 5% 15% 15% 15% 10% 15% 5% 10% 10%;
+  height: 3rem;
+  padding: 10px 0;
+}

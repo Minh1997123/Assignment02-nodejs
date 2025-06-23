@@ -1,0 +1,40 @@
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 20%;
+  background-color: #003580;
+  color: white;
+}
+.Navbar header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.Navbar header button {
+  margin-right: 20px;
+  color: #003580;
+  background-color: white;
+}
+.Navbar header p {
+  color: aliceblue;
+}
+.Navbar ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 40%;
+  padding-left: 0px;
+  list-style: none;
+}
+
+.Navbar a {
+  text-decoration: none;
+}
+
+.list-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.list-button p {
+  margin-right: 20px;
+}

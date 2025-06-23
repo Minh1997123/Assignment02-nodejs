@@ -1,0 +1,27 @@
+.item {
+  display: grid;
+  grid-template-columns: 5% 15% 15% 15% 10% 15% 5% 10% 10%;
+  border-bottom: 1px solid #e1e1e1;
+  height: 3rem;
+  padding: 10px 0;
+}
+.item > * {
+  display: flex;
+  align-items: center;
+}
+.item > *:last-child {
+  color: greenyellow;
+  width: fit-content;
+  padding: 0px 5px;
+  border-radius: 10px;
+}
+
+.button--booked {
+  background-color: #f5b8ad;
+}
+.button--checkin {
+  background-color: #39d139;
+}
+.button--checkout {
+  background-color: #dfdcfd;
+}

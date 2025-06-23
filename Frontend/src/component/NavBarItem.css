@@ -1,0 +1,15 @@
+.Navbar-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2rem;
+  padding: 0px 1%;
+}
+
+.Navbar-item p {
+  margin-left: 10px;
+}
+.active {
+  border: 1px solid white;
+  border-radius: 10px;
+}
